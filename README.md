@@ -19,6 +19,9 @@ Herramienta para obtener los siguientes datos en la página de mercado del Miste
 # AVERAGE GROWTH
 Herramienta para determinar el crecimiento diario mediano de un jugador en el pasado mes.
 
+# REPLACE ORDERS
+Herramienta para resetear las pujas rechazadas automaticamente. Requiere de un input de YES o NO para que se ejecute el script.
+
 # SOFASCRAPPER
 Price increment prediction using machine learning algorithms, based on previous statistics scrapped from sofascore
 ...Under development...
