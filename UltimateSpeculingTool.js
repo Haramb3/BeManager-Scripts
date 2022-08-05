@@ -19,6 +19,7 @@ for(var i =0;i< document.getElementsByClassName("wrapper player-list")[0].childr
 	text = +Math.round(number) + +text;
 	var percent = ((offer-value)/(text-value))*100;
 	percent = percent.toFixed(2);
+	percent = percent.toString().replace('%','');
 	if(percent<question) {
 		document.getElementsByClassName("btn btn-decline btn-grey")[i].click();
 		counter++;
